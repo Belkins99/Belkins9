@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bar.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 40pt;
+}
+
+#span {
+    color: green;
+}
+
+#navlinks {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+.navitems {
+    text-decoration: none;
+    color: white;
+
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 400px;
+
+    padding: 0;
+}
+
+
+#wel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: xx-large;
+    align-items: center;
+}
+
+#first {
+    font-family: montserrat-medium sans-serif;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    word-wrap: break-word;
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+
+
+.b1 {
+    border: 2px solid white;
+    margin: 15px 0;
+    padding: 12px 30px;
+    font-size: 18px;
+}
+
+button {
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    background-size: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+
+}
+
+nav a:hover{
+    color: green;
+}
+
+#logo:hover{
+    color: green;
+}
+
+#span:hover{
+color: wheat;
+}
+
+
+.b1:hover{
+    color: blue;
+}
+.heya {
+    background-color: bisque;
+    margin: 0;
+    padding: 10px;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    text-align: center;
+}
+
+.heya h3 {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.heya h1 {
+    font-size: 3rem;
+    color: black;
+    margin-top: 7rem;
+}
+
+.heya p {
+    font-size: large;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.heya a {
+
+    border-radius: 2rem;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.heya button{
+    background-color: orangered;
+    padding: 10px;
+}
+
+.heya button:hover{
+    background-color: antiquewhite;
+}
+
+.heya a:hover {
+    color: blue;
+    
+}
+
+.momo-section {
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    margin-top: -3rem;
+    color: antiquewhite;
+
+}
+
+.momo-section h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 50PX;
+}
+
+.momo-section p {
+    font-size: 2rem;
+}
+
+.momo-section button {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    margin-bottom: 7rem;
+    background-color: black;
+
+}
+
+.momo-section button:hover{
+    background-color: aquamarine;
+}
+
+.momo-section button a {
+    color: wheat;
+}
+
+.momo-section a:hover{
+    color: goldenrod;
+}
+
+.momo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 50%;
+    margin-left: 17rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.nova {
+    text-align: center;
+    margin-top: -5rem;
+    background-color: wheat;
+}
+
+.nova-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 50%;
+    margin-left: 15rem;
+}
+
+.nova h3 {
+    font-size: 2rem;
+    color: goldenrod;
+    
+}
+
+.nova h1 {
+    font-size: 2rem;
+}
+
+.nova button {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    background-color: black;
+}
+
+.nova button:hover{
+background-color: orangered;
+}
+
+
+.nova button a {
+    color: wheat;
+}
+
+.nova a:hover{
+    color: goldenrod;
+    
+}
+
+
+.may {
+    margin-top: -5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.may-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 50%;
+    margin-left: 15rem;
+
+}
+
+.may button {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: solid 2px wheat;
+    margin-bottom: 1rem;
+    background-color: antiquewhite;
+}
+
+.may button:hover{
+    background-color: aquamarine;
+}
+
+.may button a {
+    color: black;
+}
+
+.may a:hover{
+color: blue;
+}
+
+
+.may h3 {
+    font-size: 2rem;
+    color: goldenrod;
+    margin-top: 5rem;
+}
+
+.may p{
+    color: antiquewhite;
+}
+
+.cot{
+    text-align: center;
+    background-color: bisque;
+    background-size: cover;
+    padding: 5rem 15rem;
+}
+
+.cot h3{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.cot p{
+font-size: 1rem;
+color: rgba(0, 0, 0, 0.603);
+}
+
+footer {
+  background-color:  rgb(0, 0, 0);
+  color: antiquewhite;
+  padding: 5PX;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-align: center;
+
+
+}
