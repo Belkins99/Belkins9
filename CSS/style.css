@@ -219,7 +219,23 @@ color: wheat;
     margin-left: 17rem;
     margin-bottom: 5rem;
     align-items: center;
+    padding: 3rem 6rem;
+    width: 70%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.664);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+    border-radius: 6px;
+    transition: transform .1s;
 }
+
+.momo img:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 
 .nova {
     text-align: center;
@@ -235,7 +251,23 @@ color: wheat;
     grid-row-gap: 30px;
     width: 50%;
     margin-left: 15rem;
+    padding: 3rem 6rem;
+    width: 70%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.664);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+    border-radius: 6px;
+    transition: transform .1s;
 }
+
+.nova-img img:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 
 .nova h3 {
     font-size: 2rem;
@@ -284,7 +316,22 @@ background-color: orangered;
     grid-row-gap: 30px;
     width: 50%;
     margin-left: 15rem;
+    padding: 3rem 6rem;
+    width: 70%;
+    margin: auto;
+    background: wheat;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+    border-radius: 6px;
+    transition: transform .1s;
 
+}
+
+.may-img img:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
 }
 
 .may button {
